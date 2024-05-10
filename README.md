@@ -1,6 +1,6 @@
-# Learn Python for Data Analyst Part 3
+# Data Analytics Part 3
 
-Hi back to the Learn Python for Data Analyst series! In this final part of the series, we will focus on data analytics and visualization, responsible analytics, and the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology. Data analytics and visualization are essential skills for data analysts, enabling them to extract insights and patterns from data and communicate findings effectively. Responsible analytics ensures that data is handled ethically and responsibly, while the CRISP-DM methodology provides a structured approach to data mining projects. Let's dive into the world of data analytics and visualization!
+Welcome to the Python For Data Analytics! 🙌 In this final part of the series, we will focus on data analytics and visualization, responsible analytics, and the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology. Data analytics and visualization are essential skills for data analysts, enabling them to extract insights and patterns from data and communicate findings effectively. Responsible analytics ensures that data is handled ethically and responsibly, while the CRISP-DM methodology provides a structured approach to data mining projects. Let's dive into the world of data analytics and visualization!
 
 ## Data Visualization
 
@@ -16,6 +16,7 @@ There are four common types or categories of data visualization:
 and There are several types of plots you can create using these libraries and which are as follows:
 
 1. Bar Chart (Comparison)
+
    Bar charts are used to compare data across different categories or groups. They are suitable for visualizing categorical data and comparing values between different groups. There are two types of bar charts: vertical bar charts and horizontal bar charts.
 
 - Vertical Bar Chart : Suitable for comparing data with multiple categories.
@@ -32,6 +33,7 @@ and There are several types of plots you can create using these libraries and wh
   Data Source: [Source](https://opendata.jabarprov.go.id/id/visualisasi/potret-permasalahan-remaja-di-jawa-barat)
 
 2. Line Chart (Comparison)
+
    Line charts are used to show trends or changes over time. They are suitable for visualizing data that changes continuously or sequentially. There are two types of line charts: single line charts and multiple line charts.
 
 - Single Line Chart : Suitable for visualizing a single data series over time.
@@ -48,6 +50,7 @@ and There are several types of plots you can create using these libraries and wh
   Data Source: [Source](https://opendata.jabarprov.go.id/id/visualisasi/penguatan-kinerja-keuangan-pemprov-jabar-melalui-optimalisasi-pajak-kendaraan-bermotor-pemprov-jawa-barat---jdvf-competition-2022)
 
 3. Stacked Bar Chart (Comparison & Composition)
+
    Stacked bar charts are used to compare data across different categories while showing how individual parts make up a whole. They are suitable for visualizing categorical data and comparing values between different groups. Stacked bar charts can be used for both comparison and composition purposes.
 
    Example:
@@ -56,8 +59,9 @@ and There are several types of plots you can create using these libraries and wh
 
    Data Source: [Source](https://opendata.jabarprov.go.id/id/visualisasi/visualisasi-desa-yang-mengalami-pencemaran-lingkungan-di-provinsi-jawa-barat-tahun-2020)
 
-4. Stacked 100% Bar Chart (Comparison & Composition)
-   Stacked 100% bar charts are similar to stacked bar charts but represent the data as percentages of the whole. They are suitable for visualizing the composition of data across different categories. Stacked 100% bar charts can be used for both comparison and composition purposes.
+5. Stacked 100% Bar Chart (Comparison & Composition)
+
+    Stacked 100% bar charts are similar to stacked bar charts but represent the data as percentages of the whole. They are suitable for visualizing the composition of data across different categories. Stacked 100% bar charts can be used for both comparison and composition purposes.
 
    Example:
 
@@ -65,8 +69,9 @@ and There are several types of plots you can create using these libraries and wh
 
    Data Source: [Source](https://ironic3d.com.au/categorical-charts/power-bi-100-stacked-bar-chart)
 
-5. Pie Chart (Composition)
-   Pie charts are used to show how individual parts make up a whole. They are suitable for visualizing the composition of data and comparing the proportions of different categories. Pie charts are ideal for displaying data with a small number of categories.
+7. Pie Chart (Composition)
+
+    Pie charts are used to show how individual parts make up a whole. They are suitable for visualizing the composition of data and comparing the proportions of different categories. Pie charts are ideal for displaying data with a small number of categories.
 
    Example:
 
@@ -74,8 +79,9 @@ and There are several types of plots you can create using these libraries and wh
 
    Data Source: [Source](https://medium.com/@halilintarbasyeban/sekolah-data-pacmann-project-analisa-jumlah-kasus-balita-gizi-buruk-pada-provinsi-jawa-barat-tahun-1051eebc8360)
 
-6. Tree Map Chart (Composition)
-   Tree map charts are used to display hierarchical data as a set of nested rectangles. They are suitable for visualizing the composition of data and comparing the proportions of different categories. Tree map charts are ideal for displaying data with multiple levels of hierarchy.
+9. Tree Map Chart (Composition)
+
+    Tree map charts are used to display hierarchical data as a set of nested rectangles. They are suitable for visualizing the composition of data and comparing the proportions of different categories. Tree map charts are ideal for displaying data with multiple levels of hierarchy.
 
    Example:
 
@@ -83,19 +89,20 @@ and There are several types of plots you can create using these libraries and wh
 
    Data Source: [Source](https://opendata.jabarprov.go.id/id/visualisasi/melihat-kesempatan-kerja-di-jawa-barat)
 
-7. Scatter Plot (Relationship)
-   Scatter plots are used to explore relationships between variables. They are suitable for visualizing the correlation between two continuous variables. Scatter plots can help identify patterns, trends, and outliers in the data.
+11. Scatter Plot (Relationship)
 
-   Example:
+      Scatter plots are used to explore relationships between variables. They are suitable for visualizing the correlation between two continuous variables. Scatter plots can help identify patterns, trends, and outliers in the data.
+
+    Example:
 
    <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Scatter%20Plot.png" /></div>
 
    Data Source: [Source](https://opendata.jabarprov.go.id/id/visualisasi/ubi-jalar---komoditas-ekspor-unggulan-jawa-barat)
 
-8. Spatial Chart (Relationship)
-   Spatial charts are used to display data on maps or geographical regions. They are suitable for visualizing data that has a spatial component, such as locations, regions, or countries. Spatial charts can help analyze patterns and trends based on geographical data.
-
-   Example:
+11. Spatial Chart (Relationship)
+ 
+      Spatial charts are used to display data on maps or geographical regions. They are suitable for visualizing data that has a spatial component, such as locations, regions, or countries. Spatial charts can help analyze patterns and trends based on geographical data.
+    Example:
 
    <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Spatial%20Chart.png" /></div>
 
@@ -114,24 +121,27 @@ Matplotlib and Seaborn are popular Python libraries for data visualization. Matp
 
 There are several types of plots you can create using Matplotlib, such as:
 
-1. Line Chart :
+1. Line Chart 
+
    Line charts effectively display trends over time, ideal for continuous or sequential data like time series. With Matplotlib, customization options abound, allowing for tailored visualization.
 
-Example:
+   Example:
 
 <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Matplot%20Multi%20Line.png" /></div>
 
-2. Bar Chart :
-   Bar charts in Matplotlib are effective for comparing categories or showing discrete data. They're ideal for visualizing categorical variables or comparing different groups. Matplotlib provides extensive customization options for bar charts, allowing for tailored presentations.
+2. Bar Chart 
 
-Example:
+    Bar charts in Matplotlib are effective for comparing categories or showing discrete data. They're ideal for visualizing categorical variables or comparing different groups. Matplotlib provides extensive customization options for bar charts, allowing for tailored presentations.
+
+   Example:
 
 <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Matplot%20Stacked%20Bar%20Chart.png" /></div>
 
-3. Histogram :
+3. Histogram 
+
    Histograms visually represent data distribution, aiding in understanding numerical data frequency. Matplotlib's customizable options enable tailored visualizations.
 
-Example:
+   Example:
 
 <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Matplot%20Histogram.png" /></div>
 
@@ -144,17 +154,19 @@ Example:
 
 There are several types of plots you can create using Seaborn, such as:
 
-1. Line Chart :
+1. Line Chart 
+
    Seaborn offers seamless creation of line charts, perfect for depicting trends over time. Its simplicity and customization options make it a top choice for exploratory data analysis and visualization tasks.
 
-Example:
+   Example:
 
 <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Seaborn%20Multi%20Line.png" /></div>
 
-2. Bar Chart :
-   Seaborn simplifies the creation of bar charts, making them perfect for comparing categories or displaying discrete data. Its intuitive interface and customization options make it a preferred tool for exploratory data analysis and visualization tasks.
+2. Bar Chart 
 
-Example:
+    Seaborn simplifies the creation of bar charts, making them perfect for comparing categories or displaying discrete data. Its intuitive interface and customization options make it a preferred tool for exploratory data analysis and visualization tasks.
+
+   Example:
 
 <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/DataAnalytics3/Seaborn%20Multi%20Bar%20Chart.png" /></div>
 
@@ -222,4 +234,4 @@ Bias in data analysis refers to systematic errors or distortions in data that le
 
 ## End Notes
 
-The last part of the Learn Python for Data Analyst series focused on data analytics and visualization, responsible analytics, and the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology. Data analytics and visualization play a crucial role in extracting insights and patterns from data, while responsible analytics ensures that data is handled ethically and responsibly. The CRISP-DM methodology provides a structured approach to data mining projects, guiding practitioners through the various stages of the project lifecycle. By following best practices for responsible data handling, mitigating bias in data analysis, and selecting appropriate visualizations, data analysts can conduct data analysis effectively and make informed decisions based on data insights. I hope you found this series helpful and informative. Thank you for reading!
+The last part of the Learn Python for Data Analyst series focused on data analytics and visualization, responsible analytics, and the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology. Data analytics and visualization play a crucial role in extracting insights and patterns from data, while responsible analytics ensures that data is handled ethically and responsibly. The CRISP-DM methodology provides a structured approach to data mining projects, guiding practitioners through the various stages of the project lifecycle. By following best practices for responsible data handling, mitigating bias in data analysis, and selecting appropriate visualizations, data analysts can conduct data analysis effectively and make informed decisions based on data insights. I hope you found this series helpful and informative. Thank you for reading and keep up the great work, may your learning journey be filled with success and discovery! 🚀
